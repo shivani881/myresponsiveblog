@@ -1,0 +1,57 @@
+@media screen and (max-width: 1200px) {
+  .navigation {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .nav-left {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-right {
+    padding-left: 25px;
+  }
+  .content-right {
+    display: none;
+  }
+  .home-post {
+    flex-direction: column;
+  }
+  .home-post-img {
+    text-align: center;
+    width: 60vw;
+  }
+  .year-box {
+    top: 24px;
+    left: 55vw;
+    font-size: 11px;
+    display: flex;
+  }
+  .year-box div {
+    margin: 0px;
+    padding: 0 5px;
+  }
+  .form-input {
+    width: 50%;
+  }
+  .form-box input,
+  textarea {
+    width: 70vw;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .social {
+    padding: 0px;
+  }
+  .post-img {
+    height: auto;
+  }
+  .adjust-year {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    padding: 12px 0px;
+  }
+}

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+:root {
+  --main-bg-color:blue;
+  --font1: "Roboto", sans-serif;
+  --font2: "Ubuntu", sans-serif;
+  --font3: font-family: 'Baloo 2', cursive;
+  --font4: 'Kirang Haerang', cursive;
+}
+.font1{
+  font-family: var(--font1);
+}
+.font2{
+  font-family: var(--font2);
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+  margin: auto;
+}
+.m-auto {
+  margin: auto;
+}
+.my-2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-input {
+  padding: 5px 4px;
+  font-size: 13px;
+  border: 2px solid;
+  border-radius: 4px;
+  margin: 0px 3px;
+  font-family: var(--font2);
+}
+.btn {
+  padding: 4px 12px;
+  border: 2px solid;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: var(--font2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+  color: white;
+  background-color: var(--main-bg-color);
+}
+
+.form-box input, textarea {
+  width: 50vw;
+padding: 8px 8px;
+margin: 5px 0px;
+font-size: 13px;
+font-family: var(--font3);
+border-radius: 5px;
+border:  2px solid lightpink;
+}
